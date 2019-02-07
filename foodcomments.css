@@ -1,0 +1,86 @@
+body {
+    background-color: rgba(255, 192, 51, 0.28);
+    max-width:768px;
+}
+.container {
+  width: 80%;
+  margin:auto;
+  overflow: hidden;
+}
+
+.button_1{
+  background-color: rgb(42,230,228);
+  border-radius: 30px;
+  height:60px;
+  width:120px;
+  border:none;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+.button_2{
+  background-color: rgb(251,121,4);
+  border-radius: 30px;
+  height:60px;
+  width:120px;
+  border:none;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: white;
+  font-size: 20px;
+}
+/* header */
+header{
+  background-color:#35424a;
+  border-bottom: darkgrey 3px solid;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+
+header #button_cancel{
+  float: left;
+}
+
+header #button_send{
+  float: right;
+}
+/* section */
+section{
+  padding-top: 10px;
+}
+
+section .box{
+  float: left;
+  text-align: left;
+  padding: 2px;
+  height: auto;
+}
+
+section .eachcomment{
+    width:40%;
+    padding:10px;
+    text-align: center;
+    float: left;
+    margin-left: 12px;
+}
+section .eachbutton{
+    padding:8px;
+    text-align: left;
+    color: yellow;
+    float: right;
+    margin-left: 10px;
+}
+
+#button_add{
+  width:11%;
+  padding:10px;
+  float: right;
+}
+
+#textfield{
+  width: 90%;
+  margin:auto;
+  background-color: white;
+}
